@@ -15,3 +15,5 @@ Commit-1
 -Feature files, configuration files, test data files are placed in src/test/resource folder
 
 -Step Defination files, page objects files,reader files and other classes are placed in src/test/java
+
+-Source code commited from SourceCode-Branch-1 and merged to Master //Wrong comment was given while merge to master branch
