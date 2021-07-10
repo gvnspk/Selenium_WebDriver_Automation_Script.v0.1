@@ -1,0 +1,30 @@
+[
+	{
+	"firstName":"Steve",
+	"lastName":"Rogers",
+	"countryList":"India",
+	"address":{
+	"building":"Avengers Building",
+	"townOrCity":"NewYork",
+	"pinCode":"555555"
+	},
+	"contactDetails":{
+	"phoneNumber":"9989796959",
+	"email":"captianAmerica@avengers.com"
+	}
+	},
+	{
+	"firstName":"Tony",
+	"lastName":"Stark",
+	"countryList":"India",
+	"address":{
+	"building":"Avengers Building",
+	"townOrCity":"NewYork",
+	"pinCode":"555555"
+	},
+	"contactDetails":{
+	"phoneNumber":"9999999999",
+	"email":"ironMan@avengers.com"
+	}
+	}
+]
