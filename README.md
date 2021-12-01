@@ -1,10 +1,16 @@
 # Selenium_WebDriver_Automation_Script.v0.1
 
-Sample End to End automation script of an demo shopping website by Selenium wevbdriver using data driven framework, page object model,page factory and cucumber BDD implementation under maven build tool.
+Sample End to End automation script of a demo shopping website automated by Selenium wevbdriver using data driven framework, page object model,page factory and cucumber BDD implementation under maven build tool.
 
 Commit-1
 
--E2E testing steps involved for the website 1)Opening the site 2)searching the product 3)Selecting the product 4)Adding to cart 5)Proceed to checkout 6)Payment transactions.
+-E2E testing steps involved for the website 
+1)Opening the site 
+2)searching the product 
+3)Selecting the product 
+4)Adding to cart 
+5)Proceed to checkout 
+6)Payment transactions.
 
 -Only single feature file is used and customer details are taken as input. 
 
