@@ -1,23 +1,57 @@
-# Selenium_WebDriver_Automation_Script.v0.1
 
-Sample End to End automation script of a demo shopping website automated by Selenium wevbdriver using data driven framework, page object model,page factory and cucumber BDD implementation under maven build tool.
 
-Commit-1
+---
 
--E2E testing steps involved for the website 
-1)Opening the site 
-2)searching the product 
-3)Selecting the product 
-4)Adding to cart 
-5)Proceed to checkout 
-6)Payment transactions.
+# Selenium WebDriver Automation Script v0.1
 
--Only single feature file is used and customer details are taken as input. 
+This repository contains a sample end-to-end automation script for a demo shopping website. The script is implemented using:
 
--Input is passed using Json file.
+* **Selenium WebDriver**
+* **Data-Driven Framework**
+* **Page Object Model (POM)**
+* **Page Factory**
+* **Cucumber BDD**
+* **Maven Build Tool**
 
--Webdriver path, Browser path, URL, implicitWaitTime, headless(boolean value is used) parameters are passed in configuration.properties file.
+---
 
--Feature files, configuration files, test data files are placed in src/test/resource folder
+## Commit 1 Overview
 
--Step Defination files, page objects files,reader files and other classes are placed in src/test/java
+### E2E Testing Steps Covered:
+
+1. Opening the website
+2. Searching for a product
+3. Selecting a product
+4. Adding the product to the cart
+5. Proceeding to checkout
+6. Completing payment transactions
+
+---
+
+### Key Features:
+
+* A single feature file is used for the test scenario.
+* Customer details are provided as input.
+* Test data is passed via a **JSON** file.
+* Configuration parameters such as:
+
+  * WebDriver path
+  * Browser path
+  * Base URL
+  * Implicit wait time
+  * Headless mode (boolean)
+    are specified in the `configuration.properties` file.
+
+---
+
+### Project Structure:
+
+* `src/test/resources`
+
+  * Contains **feature files**, **configuration files**, and **test data files**
+
+* `src/test/java`
+
+  * Contains **step definition files**, **page object classes**, **reader classes**, and other supporting classes
+
+---
